@@ -1,38 +1,71 @@
-.App {
+
+.btnSignUp{
+  height: 50px;
+  width: 200px;
+  background-color: aquamarine;
+  border: none;
+  outline: none;
+  box-shadow: 0px 10px 5px gray;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btnSignUp:hover{
+  background-color: aqua;
+}
+.btnSignUp:active{
+  transform: translateY(4px);
+  box-shadow: 0px 5px 5px gray;
+
+}
+.signUpContainer{
+  width: 700px;
+  background-color: rgb(234, 229, 222);
+  margin: 0 auto;
+  margin-top: 3rem;
+  box-shadow: 0px 0px 5px gray;
+  height: 500px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.container label{
+  margin: 15px 0px 0px 4px;
+}
+.container h1{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input[type = text],input[type = password]{
+  height: 30px;
+  margin: 0px 3px 0px 3px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btnForSignUp{
+  margin: 20px;
+  height: 40px;
+  background-color: lightblue;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btnForSignUp:hover{
+  background-color: aqua;
 }
-
-.App-link {
-  color: #61dafb;
+.cross{
+  font-size: 100px;
+  position: absolute;
+  top: 10px;
+  right: 60px;
+  cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.loginbtn{
+  margin: 0px 0px 0px 35rem;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  padding: 10px;
+  font-weight: bold;
+}
+.loginbtn:hover{
+  text-decoration: underline;
+  color: blue;
 }
